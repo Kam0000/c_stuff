@@ -15,7 +15,7 @@ int main(void)
 
 	printf("quotient = %d\n", quotient);
 	printf("remainder = %d\n", remainder);
-	printf("result is = %f\n", result);
+	printf("result is = %4.3f\n", result);
 
 
 	return (0);
