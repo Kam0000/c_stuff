@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * USE gcc -Wall -Werror -Wextra -pedantic -std=gnu89 condit.c FOR COMPILING TO OUTPUT
+*/
 int main(void)
 {
 	/**
@@ -7,9 +10,9 @@ int main(void)
 	 * It should also take and store inputs to be retrieved for the output
 	 */
 	printf("What's your month of birth?\nA. Nigeria	\nB. Togo \nC. Ghana\n Answer: ");
-	char alphabet = getchar();
+	char alphabe = getchar();
 	printf("You selected: ");
-	putchar(alphabet);
+	putchar(alphabe);
 	printf("\n");
 
 	//char a[100];
